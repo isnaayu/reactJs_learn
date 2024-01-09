@@ -1,0 +1,58 @@
+.welcome {
+    display: flex;
+
+}
+
+.welcome > div:nth-child(2){
+    width: 60%;
+}
+
+a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+
+.right img {
+    border-radius: 20px;
+}
+
+.right img:hover{
+    -webkit-transform: scale(1.08);
+}
+
+.discover {
+    height: 600px;
+    background-image: url("https://images.unsplash.com/photo-1479044769763-c28e05b5baa5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.discover div {
+    height: 400px;
+}
+
+/* .discover img {
+    max-height: 400px;
+    width: 1000px;
+} */
+
+.img-discover{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.menu {
+    background-color: antiquewhite;
+}
+
+.carousel-item .card {
+    flex-flow: row;
+} 
+
+.contact .item {
+    width: 40%;
+}
